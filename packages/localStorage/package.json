@@ -1,5 +1,5 @@
 {
-  "name": "@redux-persist/localStorage",
+  "name": "@redux-store/localstorage",
   "version": "1.0.0",
   "description": "Synchronize Redux state with localStorage",
   "license": "MIT",
@@ -7,7 +7,7 @@
   "browser": "dist/index.js",
   "scripts": {
     "prepare": "npm run build",
-    "build": "rm -rf dist/* && rollup -c",
+    "build": "rollup -c",
     "test:ci": "npm run build && jest --coverage",
     "test": "npm run build && jest --watchAll --coverage"
   },
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/christianllv/redux-persist.git"
+    "url": "https://github.com/christianllv/redux-store-persist.git"
   },
   "keywords": [
     "redux",
@@ -41,9 +41,9 @@
     "state"
   ],
   "bugs": {
-    "url": "https://github.com/christianllv/redux-persist/issues"
+    "url": "https://github.com/christianllv/redux-store-persist/issues"
   },
-  "homepage": "hhttps://github.com/christianllv/redux-persist",
+  "homepage": "hhttps://github.com/christianllv/redux-store-persist",
   "jest": {
     "setupFiles": [
       "jest-localstorage-mock"
