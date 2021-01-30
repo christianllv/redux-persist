@@ -14,11 +14,10 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: cd packages/localStorage
-      - run: yarn
-      - run: yarn test:ci
-      - run: yarn build
-      - run: npm publish --access public
+      - run: npm --prefix ./packages/localStorage install
+      - run: npm --prefix ./packages/localStorage run test:ci
+      - run: npm --prefix ./packages/localStorage run build
+      - run: npm --prefix ./packages/localStorage publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
@@ -30,10 +29,9 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: cd packages/sessionStorage
-      - run: yarn
-      - run: yarn test:ci
-      - run: yarn build
-      - run: npm publish --access public
+      - run: npm --prefix ./packages/sessionStorage install
+      - run: npm --prefix ./packages/sessionStorage run test:ci
+      - run: npm --prefix ./packages/sessionStorage run build
+      - run: npm --prefix ./packages/sessionStorage publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
