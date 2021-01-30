@@ -4,7 +4,7 @@ Subscribe the Redux Store and replicate to `localStorage`. The user could refres
 
 ### Store config
 
-Import the **_default method_** (you can call storePersist as the example below) from `'painless-redux-persist'` and pass store as parameter
+Import the **_default method_** (you can call storePersist as the example below) from `'@redux-store/localStorage'` and pass store as parameter
 
 ```javascript
 import { createStore, combineReducers } from 'redux';
