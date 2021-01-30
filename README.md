@@ -1,4 +1,4 @@
-# @redux-persist
+# Redux Store Persist
 Subscribe the Redux Store and replicate to `localStorage` or `sessionStorage`.
 
 **Features**
@@ -9,15 +9,15 @@ Subscribe the Redux Store and replicate to `localStorage` or `sessionStorage`.
 ## Installing
 ```shell
 # install via NPM
-$ npm install @redux-persist/localStorage
+$ npm install @redux-store/localStorage
 #or 
-$ npm install @redux-persist/sessionStorage
+$ npm install @redux-store/sessionStorage
 ```
 ```shell
 # install via YARN
-$ yarn add @redux-persist/localStorage
+$ yarn add @redux-store/localStorage
 #or 
-$ yarn add @redux-persist/sessionStorage
+$ yarn add @redux-store/sessionStorage
 ```
 
 ## Contributing
