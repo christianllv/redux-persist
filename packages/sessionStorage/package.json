@@ -1,15 +1,15 @@
 {
   "name": "@redux-store/sessionstorage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Synchronize Redux state with sessionStorage",
   "license": "MIT",
   "author": "Christian Llontop",
   "browser": "dist/index.js",
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "yarn build",
     "build": "rollup -c",
-    "test:ci": "npm run build && jest --coverage",
-    "test": "npm run build && jest --watchAll --coverage"
+    "test:ci": "yarn build && jest --coverage",
+    "test": "yarn build && jest --watchAll --coverage"
   },
   "devDependencies": {
     "@babel/core": "7.4.0",
