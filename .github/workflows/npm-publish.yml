@@ -17,7 +17,7 @@ jobs:
       - run: npm --prefix ./packages/localStorage install
       - run: npm --prefix ./packages/localStorage run test:ci
       - run: npm --prefix ./packages/localStorage run build
-      - run: npm --prefix ./packages/localStorage publish --access public
+      - run: cd packages/localStorage && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
@@ -32,6 +32,6 @@ jobs:
       - run: npm --prefix ./packages/sessionStorage install
       - run: npm --prefix ./packages/sessionStorage run test:ci
       - run: npm --prefix ./packages/sessionStorage run build
-      - run: npm --prefix ./packages/sessionStorage publish --access public
+      - run: cd packages/sessionStorage && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

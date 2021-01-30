@@ -6,10 +6,10 @@
   "author": "Christian Llontop",
   "browser": "dist/index.js",
   "scripts": {
-    "prepare": "yarn build",
+    "prepare": "npm run build",
     "build": "rm -rf dist/* && rollup -c",
-    "test:ci": "yarn build && jest --coverage",
-    "test": "yarn build && jest --watchAll --coverage"
+    "test:ci": "npm run build && jest --coverage",
+    "test": "npm run build && jest --watchAll --coverage"
   },
   "devDependencies": {
     "@babel/core": "7.4.0",
