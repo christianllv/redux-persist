@@ -1,4 +1,4 @@
-# @redux-persist
+# Redux Store Persist
 Subscribe the Redux Store and replicate to `localStorage` or `sessionStorage`.
 
 **Features**
@@ -9,19 +9,19 @@ Subscribe the Redux Store and replicate to `localStorage` or `sessionStorage`.
 ## Installing
 ```shell
 # install via NPM
-$ npm install @redux-persist/localStorage
+$ npm install @redux-store/localstorage
 #or 
-$ npm install @redux-persist/sessionStorage
+$ npm install @redux-store/sessionstorage
 ```
 ```shell
 # install via YARN
-$ yarn add @redux-persist/localStorage
+$ yarn add @redux-store/localstorage
 #or 
-$ yarn add @redux-persist/sessionStorage
+$ yarn add @redux-store/sessionstorage
 ```
 
 ## Contributing
-1. Clone it (`git clone git@github.com:christianllv/ssm-aws-config.git`)
+1. Clone it (`git clone git@github.com:christianllv/redux-store-persist.git`)
 1. Create your feature branch (`git checkout -b feature/my-new-feature`)
 1. Commit your changes using [conventional changelog standards](https://github.com/bcoe/conventional-changelog-standard/blob/master/convention.md) (`git commit -m 'feat(my-new-feature): Add some feature'`)
 1. Push to the branch (`git push origin feature/my-new-feature`)
