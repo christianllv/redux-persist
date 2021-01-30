@@ -21,7 +21,7 @@ $ yarn add @redux-store/sessionStorage
 ```
 
 ## Contributing
-1. Clone it (`git clone git@github.com:christianllv/ssm-aws-config.git`)
+1. Clone it (`git clone git@github.com:christianllv/redux-store-persist.git`)
 1. Create your feature branch (`git checkout -b feature/my-new-feature`)
 1. Commit your changes using [conventional changelog standards](https://github.com/bcoe/conventional-changelog-standard/blob/master/convention.md) (`git commit -m 'feat(my-new-feature): Add some feature'`)
 1. Push to the branch (`git push origin feature/my-new-feature`)
