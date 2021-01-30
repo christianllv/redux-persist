@@ -4,11 +4,11 @@ Subscribe the Redux Store and replicate to `localStorage`. The user could refres
 
 ### Store config
 
-Import the **_default method_** (you can call storePersist as the example below) from `'@redux-store/localStorage'` and pass store as parameter
+Import the **_default method_** (you can call storePersist as the example below) from `'@redux-store/localstorage'` and pass store as parameter
 
 ```javascript
 import { createStore, combineReducers } from 'redux';
-import storePersist from '@redux-store/localStorage';
+import storePersist from '@redux-store/localstorage';
 
 const combineReducer = combineReducers({
   Category,
@@ -46,10 +46,10 @@ storePersist(store, {
 
 ### Reducer example
 
-To populate the initalState from browser storage, import **_defineState_** method from `'@redux-store/localStorage'`, pass your `initialState` as first parameter and the reducer key as the second. (note that it's using currying)
+To populate the initalState from browser storage, import **_defineState_** method from `'@redux-store/localstorage'`, pass your `initialState` as first parameter and the reducer key as the second. (note that it's using currying)
 
 ```javascript
-import { defineState } from '@redux-store/localStorage';
+import { defineState } from '@redux-store/localstorage';
 
 const defaultState = {
   data: null
@@ -94,7 +94,7 @@ storePersist(store, {
 This method gets the persisted state. It shouldn't be actually necessary, since the state from your redux store is supposed to be the same.
 
 ```javascript
-import { getState } from '@redux-store/localStorage';
+import { getState } from '@redux-store/localstorage';
 
 const state = getState();
 ```
@@ -102,7 +102,7 @@ const state = getState();
 ### If you need to reset the local store
 
 ```javascript
-import { resetState } from '@redux-store/localStorage';
+import { resetState } from '@redux-store/localstorage';
 
 resetState();
 ```
