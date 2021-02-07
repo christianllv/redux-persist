@@ -4,7 +4,7 @@
   "description": "Synchronize Redux state with sessionStorage",
   "license": "MIT",
   "author": "Christian Llontop",
-  "browser": "dist/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prepare": "yarn build",
     "build": "rollup -c",

@@ -10,7 +10,7 @@ export default [
     output: [
       {
         name: 'index',
-        file: `${pkg.browser}`,
+        file: `${pkg.main}`,
         format: 'umd',
       },
     ],
