@@ -1,6 +1,6 @@
 {
   "name": "@redux-store/localstorage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Synchronize Redux state with localStorage",
   "license": "MIT",
   "author": "Christian Llontop",
